@@ -22,10 +22,7 @@ extensions = [
 
 comments_config = {
    "utterances": {
-      "repo": "da1234cao/dacao-reading-notes",
-      "issue-term": "pathname",
-      "label": "comment",
-      "theme": "github-light"
+      "repo": "da1234cao/dacao-reading-notes"
    }
 }
 
