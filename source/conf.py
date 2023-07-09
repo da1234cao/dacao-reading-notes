@@ -21,9 +21,11 @@ extensions = [
 ]
 
 comments_config = {
-   "utterances": {
-      "repo": "da1234cao/dacao-reading-notes"
-   }
+    "hypothesis": True,
+    "utterances": {
+        "repo": "da1234cao/dacao-reading-notes",
+    },
+    # "dokieli": True
 }
 
 templates_path = ['_templates']
