@@ -16,8 +16,18 @@ release = 'latest'
 
 extensions = [
     'recommonmark',
-    'sphinx_markdown_tables'
+    'sphinx_markdown_tables',
+    'sphinx_comments'
 ]
+
+comments_config = {
+   "utterances": {
+      "repo": "da1234cao/dacao-reading-notes",
+      "issue-term": "pathname",
+      "label": "comment",
+      "theme": "github-light"
+   }
+}
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -35,7 +45,7 @@ html_static_path = ['_static']
 html_context = {
     "display_github": True,  # Integrate GitHub
     "github_user": "da1234cao",  # Username
-    "github_repo": "chinese-news-book",  # Repo name
+    "github_repo": "dacao-reading-notes",  # Repo name
     "github_version": "laboratory",  # Version
     "conf_py_path": "/source/",  # Path in the checkout to the docs root
 }
