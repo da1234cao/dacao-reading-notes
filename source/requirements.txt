@@ -1,3 +1,4 @@
 Sphinx
 myst_parser
 sphinx-comments
+sphinx_rtd_theme
