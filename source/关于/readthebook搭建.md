@@ -16,7 +16,7 @@
 
 建议在 [python-虚拟环境](https://docs.python.org/zh-cn/3/library/venv.html)中安装这些包。
 
-``shell
+```shell
 # 准备python环境
 python3 --version
 pip --version
@@ -28,21 +28,21 @@ pip install sphinx # 文档构建工具
 pip install sphinx-autobuild # 构建并创建一个server
 pip install recommonmark # 支持 Markdown 语法
 pip install sphinx_markdown_tables # 支持 markdown 的表格语法
-``
+```
 
 安装完 `sphinx` 之后，可以使用下面的工具。
 
-``shell
+```shell
 sphinx-apidoc:用于自动生成Sphinx源代码。它可以为Python模块、类、方法等生成reStructuredText文档。
 sphinx-autobuild:用于构建Sphinx文档集。当在source/中检测到更改时，将重建文档并自动重新加载任何打开的浏览器窗口，而结果则输出在source/_build/html中 。
 sphinx-autogen:用于自动生成Sphinx项目所需的所有文件和目录结构。它可以为Python模块、类、方法等生成reStructuredText文档。
 sphinx-build:用于构建Sphinx文档集。它可以根据指定的配置选项构建文档集，并将其输出到指定的目录中。
 sphinx-quickstart:用于快速创建一个基本的Sphinx项目。它会自动创建一个conf.py文件和一个index.rst文件，以及一个docs目录和一个_build目录 。
-``
+```
 
 使用 `sphinx-quickstart` 构建一个基本项目。可以在一个空仓库目录中，执行该命令。执行后生成如下内容。
 
-``shell
+```shell
 # 我选择独立的源文件和构建目录-这样build和source在不同目录
 # 语言选zh_CN
 sphinx-quickstart
@@ -57,7 +57,7 @@ sphinx-quickstart
     │
     ├───_static # 静态文件目录
     └───_templates # 模板目录
-``
+```
 
 构建html文档,并启动http服务。
 
