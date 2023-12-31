@@ -19,7 +19,10 @@ extensions = [
     'sphinx_comments'
 ]
 
-myst_enable_extensions = ["colon_fence"]
+myst_enable_extensions = [
+    "colon_fence", 
+    "html_image"
+]
 
 comments_config = {
     "hypothesis": True,
