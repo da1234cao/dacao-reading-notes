@@ -19,6 +19,8 @@ extensions = [
     'sphinx_comments'
 ]
 
+myst_enable_extensions = ["colon_fence"]
+
 comments_config = {
     "hypothesis": True,
     "utterances": {
